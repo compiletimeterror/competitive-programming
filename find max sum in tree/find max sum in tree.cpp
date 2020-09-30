@@ -13,6 +13,7 @@ struct Node
 
 int findMaxSum(Node* root,int &ans)
 {
+    int ans=0;
     if(root==NULL)
         return 0;
     int l=max(findMaxSum(root->left,ans),0);
