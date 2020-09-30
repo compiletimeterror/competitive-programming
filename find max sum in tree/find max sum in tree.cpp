@@ -11,7 +11,6 @@ struct Node
     Node(int x, Node *left, Node *right) : val(x), left(left), right(right) {}
 };
 
-int ans=INT_MIN;
 int findMaxSum(Node* root,int &ans)
 {
     if(root==NULL)
